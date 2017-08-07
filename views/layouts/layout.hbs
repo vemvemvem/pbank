@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> {{ title }} </title>
+
+
+{{!-- Local CSS --}}
+
+{{!-- <link rel="stylesheet" type="text/css" href="/stylesheets/main.css"> --}}
+<link rel="stylesheet" href="stylesheets/materialize.css">
+
+
+
+
+{{!-- MaterializeCSS CDN --}}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+
+{{!-- Fonts  --}}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+{{!-- <meta name="viewport" content="width=device width,maximum scale=1.0, initial scale=0.5"> --}}
+</head>
+<body>
+<div class="container">
+
+{{!-- <div style="width:400" class="center-align"> --}}
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">gadgetCats.com</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">FAQ</a></li>
+        <li><a href="badges.html">Feedback</a></li>
+        <li><a href="collapsible.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="center">
+
+  <div class="card-panel hoverable">
+
+{{!-- <h4>Layout top</h4> --}}
+
+{{!-- <form method="GET" action="/">
+<button> Home </button>
+</form> --}}
+
+{{{ body }}}
+
+{{!-- <h4>Layout bottom</h4> --}}
+
+</div>
+</div>
+
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Purpose</h5>
+                <p class="grey-text text-lighten-4">This site was designed to help people choose right portable battery for their needs</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Quick links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">What is a powerbank?</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Powerbank buying guide</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Best powerbanks</a></li>
+                  {{!-- <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> --}}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Best Powerbank4you
+            <a class="grey-text text-lighten-4 right" href="#!">Privacy Policy</a>
+            <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions&nbsp;&nbsp;</a>
+            </div>
+          </div>
+        </footer>
+
+</div>
+</div>
+</body>
+</html>
