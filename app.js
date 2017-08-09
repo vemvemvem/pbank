@@ -48,7 +48,7 @@ app.use('/', router)
 // 7. Launch app on a server
 
 var port = process.env.PORT || 8080
-app.listen(8080, function(){
+app.listen(port, function(){
 	console.log(chalk.bgMagenta("app is listening on port: " + port))
 })
 
